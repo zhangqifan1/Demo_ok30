@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <com.as.demo_ok30.pullextend.PullExtendLayout
+        android:id="@+id/pull_extend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <com.as.demo_ok30.pullextend.ExtendListHeader
+            android:id="@+id/extend_header"
+            android:layout_width="match_parent"
+            android:layout_height="460dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:clickable="true"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <com.as.demo_ok30.pullextend.ExtendListFooter
+            android:id="@+id/extend_footer"
+            android:layout_width="match_parent"
+            android:layout_height="460dp" />
+
+    </com.as.demo_ok30.pullextend.PullExtendLayout>
+</LinearLayout>
