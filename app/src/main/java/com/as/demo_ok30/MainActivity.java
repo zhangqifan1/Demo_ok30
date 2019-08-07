@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.tv);
 
         //字符串 是数字打头的
-        String s = "00112312为文字设置删除线";
+        String s = "00112312连续数字开头背景颜色改变";
         SpannableString spannableString = new SpannableString(s);
         Pattern pattern = Pattern.compile("[0-9]*");
         int stopIndex = 0;
